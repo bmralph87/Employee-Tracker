@@ -7,13 +7,13 @@ This project was created as an assignment for the PennLPS/TES Fullstack Bootcamp
 
 
 ## Tools used for this project
-- HTML
-- CSS
 - JavaScript
 - Node.js
 - ES6+ Concepts
 - Inquirer
-- MySQL/MySQL2
+- MySQL
+- MySQL2
+- MySQL Workbench
 
 
 ## Objective
@@ -42,7 +42,6 @@ Employee-Tracker
 [MySQL Workbench Installation](https://dev.mysql.com/downloads/workbench/)
 
 
-
 ## Honorable Mention:
 
-Shout out to George Yoo for all of his help!! 😁
+Shout out to Debra Sparr, Felicia Rosemand and George Yoo for all of their help!! 😁
