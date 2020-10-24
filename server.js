@@ -14,7 +14,7 @@ const connection = mysql.createConnection({
 connection.connect(err => {
   if (err) throw err;
   console.log('connected as id ' + connection.threadId + '\n');
-  createProduct();
+  // createEmployee();
 });
 
 createDepartment = () => {
@@ -22,14 +22,14 @@ createDepartment = () => {
   const query = connection.query(
     'INSERT INTO department SET ?',
     {
-      id: 'Rocky Road',
-      department_name: 3.0,
+      id: 'HR', 'Development', 'Research', 'Sales'
     },
+
     function(err, res) {
       if (err) throw err;
-      console.log(res.affectedRows + ' product inserted!\n');
-      // Call updateProduct() AFTER the INSERT completes
-      updateProduct();
+      console.log(res.affectedRows + ' department inserted!\n');
+      // Call updateDepartment() AFTER the INSERT completes
+      updateDepartment();
     }
   );
   // logs the actual query being run
@@ -42,44 +42,42 @@ updateDepartment = () => {
     'UPDATE departments SET ? WHERE ?',
     [
       {
-        quantity: 100
+        quantity: 4
       },
-      {
-        flavor: 'Rocky Road'
-      }
+      
     ],
     function(err, res) {
       if (err) throw err;
       console.log(res.affectedRows + ' department updated!\n');
       // Call deleteProduct() AFTER the UPDATE completes
-      deleteProduct();
+      deleteDepartment();
     }
   );
   // logs the actual query being run
   console.log(query.sql);
 };
 
-deleteProduct = () => {
-  console.log('Deleting all strawberry ice cream...\n');
-  const query = connection.query(
-    'DELETE FROM products WHERE ?',
-    {
-      flavor: 'strawberry'
-    },
-    function(err, res) {
-      if (err) throw err;
-      console.log(res.affectedRows + ' products deleted!\n');
-      // Call readProducts() AFTER the DELETE completes
-      readProducts();
-    }
-  );
-  // logs the actual query being run
-  console.log(query.sql);
-};
+// deleteDepartment = () => {
+//   console.log('Deleting all departments...\n');
+//   const query = connection.query(
+//     'DELETE FROM products WHERE ?',
+//     {
+//       flavor: 'strawberry'
+//     },
+//     function(err, res) {
+//       if (err) throw err;
+//       console.log(res.affectedRows + ' products deleted!\n');
+//       // Call readProducts() AFTER the DELETE completes
+//       readProducts();
+//     }
+//   );
+//   // logs the actual query being run
+//   console.log(query.sql);
+// };
 
-readProducts = () => {
-  console.log('Selecting all products...\n');
-  connection.query('SELECT * FROM products', function(err, res) {
+readDepartment = () => {
+  console.log('Selecting all departments...\n');
+  connection.query('SELECT * FROM departments', function(err, res) {
     if (err) throw err;
     // Log all results of the SELECT statement
     console.log(res);

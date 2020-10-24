@@ -1,4 +1,4 @@
-USE employeeDB;
+USE employee_DB;
 
 INSERT INTO department (name)
 VALUES ('HR'), ('Development'), ('Research'), ('Sales');
@@ -6,15 +6,15 @@ VALUES ('HR'), ('Development'), ('Research'), ('Sales');
 INSERT INTO role (title, salary, department_id)
 VALUES 
 --   ('Associate'), ('Manager'), ('Lead'), ('Programmer');
-  ('Associate', '50000', 'Sales'),
-  ('Manager', '75000', 'Research'),
-  ('Lead', '65000', 'HR'),
-  ('Programmer', '80000', 'Development'),
+  ('Associate', '50000', 4),
+  ('Manager', '75000', 3),
+  ('Lead', '65000', 1),
+  ('Programmer', '80000', 2);
   
   
 
-INSERT INTO employees (first_name, last_name, role_id, manager_id)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES 
-  ('Thelonius', 'Manicotti', 'Associate', 'Medusa Santos'),
+  ('Thelonius', 'Manicotti', 1, NULL);
   
 
