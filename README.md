@@ -35,7 +35,7 @@ Employee-Tracker
 ## Sites used for Knowledge:
 
 [Console.table Installation](https://www.npmjs.com/package/console.table)
-[Heroku](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
+[Node MySQL 2 Installation](https://www.npmjs.com/package/mysql2)
 [Express Installation](https://www.npmjs.com/package/express)
 [Express API Documentation](https://expressjs.com/en/4x/api.html)
 [Uninstalling Packages and Dependencies](https://docs.npmjs.com/uninstalling-packages-and-dependencies)
