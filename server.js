@@ -1,4 +1,5 @@
-const mysql = require('mysql2');
+const inquirer = require ('inquirer');
+const mysql = require("mysql2");
 
 const connection = mysql.createConnection({
   host: 'localhost',
@@ -17,13 +18,12 @@ connection.connect(err => {
 });
 
 createDepartment = () => {
-  console.log('Inserting a new product...\n');
+  console.log('Inserting a new department...\n');
   const query = connection.query(
-    'INSERT INTO products SET ?',
+    'INSERT INTO department SET ?',
     {
-      flavor: 'Rocky Road',
-      price: 3.0,
-      quantity: 50
+      id: 'Rocky Road',
+      department_name: 3.0,
     },
     function(err, res) {
       if (err) throw err;
@@ -36,10 +36,10 @@ createDepartment = () => {
   console.log(query.sql);
 };
 
-updateProduct = () => {
-  console.log('Updating all Rocky Road quantities...\n');
+updateDepartment = () => {
+  console.log('Updating all Department quantities...\n');
   const query = connection.query(
-    'UPDATE products SET ? WHERE ?',
+    'UPDATE departments SET ? WHERE ?',
     [
       {
         quantity: 100
@@ -50,7 +50,7 @@ updateProduct = () => {
     ],
     function(err, res) {
       if (err) throw err;
-      console.log(res.affectedRows + ' products updated!\n');
+      console.log(res.affectedRows + ' department updated!\n');
       // Call deleteProduct() AFTER the UPDATE completes
       deleteProduct();
     }
