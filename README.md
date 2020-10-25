@@ -26,7 +26,7 @@ This project was created as an assignment for the PennLPS/TES Fullstack Bootcamp
 
 #### My repo can be found [Here](https://github.com/bmralph87/Employee-Tracker)
 
-#### The video of my application can be found [Here]("https://drive.google.com/file/d/1WCCwD56TXZ1TlwL5D4MLAC1X_wzmuGpb/preview")
+#### The video of my application can be found [Here]("https://drive.google.com/file/d")
 
 
 ## Sites used for Knowledge:
