@@ -7,6 +7,8 @@ This project was created as an assignment for the PennLPS/TES Fullstack Bootcamp
 
 Video of Application Function: 
 
+<iframe src="https://drive.google.com/file/d/1WCCwD56TXZ1TlwL5D4MLAC1X_wzmuGpb/preview" width="640" height="480"></iframe>
+
 
 ## Tools used for this project
 - JavaScript
