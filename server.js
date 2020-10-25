@@ -10,7 +10,7 @@ const connection = mysql.createConnection({
   user: 'root',
   // Your MySQL password
   password: 'RosieB316!!!',
-  database: 'employee_DB'
+  database: 'employee_db'
 });
 
 
@@ -208,6 +208,54 @@ const addEmployee = () => {
     });
 };
 
+// function updateEmployee() {
+//   inquirer
+//     .prompt([
+//       {
+//         name: "employeeUpdate",
+//         type: "input",
+//         message: "Which employee would you like to update?"
+//       },
+//       {
+//         name: "updateRole",
+//         type: "input",
+//         message: "What role would you like to update this employee to?"
+//       }
+//     ])
+//     .then(function(answer) {
+//       connection.query('UPDATE WHERE first_name= ? employee SET role_id=? ',[answer.employeeUpdate, answer.updateRole],
+//       function(err, res) {
+//         if (err) throw err;
+//         console.log(res.affectedRows + ' Employee has been updated!\n');
+//         startApp();
+//       });
+//     });
+// }
+
+// function updateEmployee() {
+//   inquirer
+//     .prompt([
+//       {
+//         name: "employeeUpdate",
+//         type: "input",
+//         message: "Which employee would you like to update?"
+//       },
+//       {
+//         name: "updateRole",
+//         type: "input",
+//         message: "What role would you like to switch to?"
+//       }
+//     ])
+//     .then(function(answer) {
+//       connection.query('UPDATE employee SET role_id=?',[answer.employeeUpdate, answer.updateRole],
+//       function(err, res) {
+//         if (err) throw err;
+//         console.log(res.affectedRows + ' employee inserted!\n');
+//         startApp();
+//       });
+//     });
+// }
+
 const names = [];
 
 
@@ -228,7 +276,7 @@ updateEmployee = () => {
         {
           name: 'update',
           type: 'list',
-          message: 'What Employee would you like to update a role for?',
+          message: 'Which Employee would you like to update a role for?',
           choices: names
         }
       ])
