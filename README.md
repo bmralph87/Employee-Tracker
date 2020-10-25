@@ -18,13 +18,10 @@ This project was created as an assignment for the PennLPS/TES Fullstack Bootcamp
 
 ## Objective
 1.	Install MySQL2
-2.	
-3. 
-4. 
-
-
-## Description/Usage: 
-Employee-Tracker
+2.  Create a DB
+3.	Create Tables for Departments, Roles and Employees via schema.sql and seeds.sql
+4.  Create a Server.JS file to hold connect queries and inquirer prompts
+4.  Generate an Employee Traacker application via the command line
 
 
 #### My repo can be found [Here](https://github.com/bmralph87/Employee-Tracker)
@@ -44,5 +41,5 @@ Employee-Tracker
 
 ## Honorable Mention:
 
-Shout out to Debra Sparr, Felicia Rosemand and George Yoo for all of their help!! 😁
+Shout out to Debra Sparr, Felicia Rosemand, Peyton, Brian, Tom and George Yoo for all of their help!! 😁
 
