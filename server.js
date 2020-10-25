@@ -10,7 +10,7 @@ const connection = mysql.createConnection({
   user: 'root',
   // Your MySQL password
   password: 'RosieB316!!!',
-  database: 'employee_DB'
+  database: 'employee_db'
 });
 
 
@@ -236,6 +236,30 @@ const addEmployee = () => {
 //       function(err, res) {
 //         if (err) throw err;
 //         console.log(res.affectedRows + ' Employee has been updated!\n');
+//         startApp();
+//       });
+//     });
+// }
+
+// function updateEmployee() {
+//   inquirer
+//     .prompt([
+//       {
+//         name: "employeeUpdate",
+//         type: "input",
+//         message: "Which employee would you like to update?"
+//       },
+//       {
+//         name: "updateRole",
+//         type: "input",
+//         message: "What role would you like to switch to?"
+//       }
+//     ])
+//     .then(function(answer) {
+//       connection.query('UPDATE employee SET role_id=?',[answer.employeeUpdate, answer.updateRole],
+//       function(err, res) {
+//         if (err) throw err;
+//         console.log(res.affectedRows + ' employee inserted!\n');
 //         startApp();
 //       });
 //     });
