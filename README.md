@@ -3,7 +3,7 @@
 
 This project was created as an assignment for the PennLPS/TES Fullstack Bootcamp.
 
-<img src= "">
+<img src= "Screen Shot 2020-10-25 at 5.07.41 PM copy.jpg">
 
 
 ## Tools used for this project
