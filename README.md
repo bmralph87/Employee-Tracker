@@ -21,12 +21,12 @@ This project was created as an assignment for the PennLPS/TES Fullstack Bootcamp
 2.  Create a DB
 3.	Create Tables for Departments, Roles and Employees via schema.sql and seeds.sql
 4.  Create a Server.JS file to hold connect queries and inquirer prompts
-4.  Generate an Employee Traacker application via the command line
+4.  Generate an Employee Tracker application via the command line
 
 
 #### My repo can be found [Here](https://github.com/bmralph87/Employee-Tracker)
 
-#### The video of my application can be found [Here] "<iframe src="https://drive.google.com/file/d/1WCCwD56TXZ1TlwL5D4MLAC1X_wzmuGpb/preview" width="640" height="480"></iframe>"
+#### The video of my application can be found [Here] <iframe src="https://drive.google.com/file/d/1WCCwD56TXZ1TlwL5D4MLAC1X_wzmuGpb/preview" width="640" height="480"></iframe>
 
 
 ## Sites used for Knowledge:
@@ -41,5 +41,5 @@ This project was created as an assignment for the PennLPS/TES Fullstack Bootcamp
 
 ## Honorable Mention:
 
-Shout out to Debra Sparr, Felicia Rosemand, Peyton, Brian, Tom and George Yoo for all of their help!! 😁
+Shout out to Debra Sparr, Felicia Rosemand, Peyton, Brian, Tom, Alex and George Yoo for all of their help!! 😁
 
