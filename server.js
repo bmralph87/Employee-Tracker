@@ -15,6 +15,8 @@ connection.connect(err => {
   if (err) throw err;
   console.log('connected as id ' + connection.threadId + '\n');
   // createEmployee();
+  readDepartment();
+
 });
 
 createDepartment = () => {
@@ -22,7 +24,7 @@ createDepartment = () => {
   const query = connection.query(
     'INSERT INTO department SET ?',
     {
-      id: 'HR', 'Development', 'Research', 'Sales'
+      id: ['HR', 'Development', 'Research', 'Sales']
     },
 
     function(err, res) {
@@ -77,7 +79,7 @@ updateDepartment = () => {
 
 readDepartment = () => {
   console.log('Selecting all departments...\n');
-  connection.query('SELECT * FROM departments', function(err, res) {
+  connection.query('SELECT * FROM department', function(err, res) {
     if (err) throw err;
     // Log all results of the SELECT statement
     console.log(res);
