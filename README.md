@@ -3,28 +3,25 @@
 
 This project was created as an assignment for the PennLPS/TES Fullstack Bootcamp.
 
-<img src= "">
+<img src= "Screen Shot 2020-10-25 at 5.07.41 PM copy.jpg">
 
 
 ## Tools used for this project
-- HTML
-- CSS
 - JavaScript
 - Node.js
 - ES6+ Concepts
 - Inquirer
-- MySQL/MySQL2
+- MySQL
+- MySQL2
+- MySQL Workbench
 
 
 ## Objective
 1.	Install MySQL2
-2.	
-3. 
-4. 
-
-
-## Description/Usage: 
-Employee-Tracker
+2.  Create a DB
+3.	Create Tables for Departments, Roles and Employees via schema.sql and seeds.sql
+4.  Create a Server.JS file to hold connect queries and inquirer prompts
+4.  Generate an Employee Traacker application via the command line
 
 
 #### My repo can be found [Here](https://github.com/bmralph87/Employee-Tracker)
@@ -34,15 +31,15 @@ Employee-Tracker
 
 ## Sites used for Knowledge:
 
-[Node Installation](https://nodejs.org/en/download/package-manager/)
-[Heroku](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
-[Express Installation](https://www.npmjs.com/package/express)
-[Express API Documentation](https://expressjs.com/en/4x/api.html)
-[Uninstalling Packages and Dependencies](https://docs.npmjs.com/uninstalling-packages-and-dependencies)
-
+[Console.table Installation](https://www.npmjs.com/package/console.table)
+[Node MySQL 2 Installation](https://www.npmjs.com/package/mysql2)
+[Foreign Keys](https://www.w3schools.com/sql/sql_foreignkey.asp)
+[Primary Keys](https://www.w3schools.com/sql/sql_primarykey.ASP)
+[Employee Tracker Reference](https://github.com/dsparr1010/Emp-Tacker)
+[MySQL Workbench Installation](https://dev.mysql.com/downloads/workbench/)
 
 
 ## Honorable Mention:
 
-Shout out to George Yoo for all of his help!! 😁
+Shout out to Debra Sparr, Felicia Rosemand, Peyton, Brian, Tom and George Yoo for all of their help!! 😁
 
