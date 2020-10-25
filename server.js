@@ -184,7 +184,6 @@ const addEmployee = () => {
       name: 'role',
       type: 'input',
       message: `What is the Employee's Role ID? \n (1) Associate \n (2) Manager \n (3) Lead \n (4) Programmer \n (5) Megatron \n (6) Training Manager \n (7) Litigator \n`
-     
     },
     {
       name: 'manager',
@@ -258,6 +257,5 @@ updateEmployee = () => {
 const exit = () => {
   connection.end();
 };
-
 
 
