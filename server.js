@@ -39,15 +39,7 @@ const welcomePrompt = () => {
   |                                                     |
   \`-----------------------------------------------------'
   `);
-  // connection.query(`SELECT * FROM employees`, function(err, res) {
-  // if (err) throw err;
-  // console.log(res);
-  // for (let i = 0; i < res.length; i++) {
-  //     let empName = res[i].first_name;
-  //     data.push(empName);
-  //     console.log(data);
-  // }
-  // });
+
   start();
 };
 const start = () => {
