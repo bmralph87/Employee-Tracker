@@ -5,6 +5,8 @@ This project was created as an assignment for the PennLPS/TES Fullstack Bootcamp
 
 <img src= "Screen Shot 2020-10-25 at 5.07.41 PM copy.jpg">
 
+Video of Application Function: 
+
 
 ## Tools used for this project
 - JavaScript
@@ -25,8 +27,6 @@ This project was created as an assignment for the PennLPS/TES Fullstack Bootcamp
 
 
 #### My repo can be found [Here](https://github.com/bmralph87/Employee-Tracker)
-
-#### The video of my application can be found [Here] <iframe src="https://drive.google.com/file/d/1WCCwD56TXZ1TlwL5D4MLAC1X_wzmuGpb/preview" width="640" height="480"></iframe>
 
 
 ## Sites used for Knowledge:
