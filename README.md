@@ -28,6 +28,10 @@ This project was created as an assignment for the PennLPS/TES Fullstack Bootcamp
 4.  Create a Server.JS file to hold connect queries and inquirer prompts
 4.  Generate an Employee Tracker application via the command line
 
+## Description
+
+Employee Tracker is a command-line application that manages a company's employee database. 
+
 
 #### My repo can be found [Here](https://github.com/bmralph87/Employee-Tracker)
 
