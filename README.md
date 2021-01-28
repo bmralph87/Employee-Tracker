@@ -39,14 +39,18 @@ Employee Tracker is a command-line application that manages a company's employee
 ## Sites used for Knowledge:
 
 [Console.table Installation](https://www.npmjs.com/package/console.table)
+
 [Node MySQL 2 Installation](https://www.npmjs.com/package/mysql2)
+
 [Foreign Keys](https://www.w3schools.com/sql/sql_foreignkey.asp)
+
 [Primary Keys](https://www.w3schools.com/sql/sql_primarykey.ASP)
+
 [Employee Tracker Reference](https://github.com/dsparr1010/Emp-Tacker)
+
 [MySQL Workbench Installation](https://dev.mysql.com/downloads/workbench/)
 
 
-## Honorable Mention:
 
-Shout out to Debra Sparr, Felicia Rosemand, Peyton, Brian, Tom, Alex and George Yoo for all of their help!! 😁
+
 
